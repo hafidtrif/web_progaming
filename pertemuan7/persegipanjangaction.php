@@ -17,7 +17,7 @@
     <h1>persegipanjang</h1>
      <?php
         if ($pilih=='keliling') { ?>
-            <h4>panjang + lebar = <?php echo $keliling;?></h4>
+            <h4>2 x panjang + lebar = <?php echo $keliling;?></h4>
         <?php } elseif ($pilih=='luas') { ?>
             <h4>Luas = panjang x lebar = <?php echo $luas;?></h4>
         <?php } else { ?>

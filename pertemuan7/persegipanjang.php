@@ -23,7 +23,7 @@
       <td><input type="number" name="lebar" id="lebar" required></td>
     </tr>
         <tr>
-      <td><label for="sisi">Mau Yang Mana</label></td>
+      <td><label for="sisi">Pilih</label></td>
       <td>:</td>
       <td>
             <input type="radio" id="html" name="pilih" value="keliling">

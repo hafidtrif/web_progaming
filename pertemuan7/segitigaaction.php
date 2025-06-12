@@ -14,11 +14,22 @@
     $sisi3=$_POST['sisi3'];
     $luas=0.5 * $alas * $tinggi;
     $keliling=$sisi1 + $sisi2 + $sisi3;
+    $pilih=$_POST['pilih'];
     ?>
 <a href="index.php">home</a>
     <h1>segitiga</h1>
-    <h4>Luas =  1/2 x alas x tinggi = <?php echo $luas;?></h4>
-    <h4>Keliling = alas x tinggi x tinggi = <?php echo $keliling;?></h4>
+     <?php
+        if ($pilih=='keliling') { ?>
+           <h4>Keliling = alas x tinggi x tinggi = <?php echo $keliling;?></h4>
+        <?php } elseif ($pilih=='luas') { ?>
+           <h4>Luas =  1/2 x alas x tinggi = <?php echo $luas;?></h4>
+        <?php } else { ?>
+            <h4>Keliling = alas x tinggi x tinggi = <?php echo $keliling;?></h4>
+            <h4>Luas =  1/2 x alas x tinggi = <?php echo $luas;?></h4>
+    <?php   }
+
+    ?>
+
     <img src="segitiga.jpeg" alt="segitiga.jpeg">
 </body>
 </html>

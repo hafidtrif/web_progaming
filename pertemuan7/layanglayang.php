@@ -33,6 +33,17 @@
       <td><input type="number" name="sisi2" id="sisi2" required></td>
     </tr>
     <tr>
+       <td><label for="pilih">Pilih</label></td>
+      <td>:</td>
+      <td>
+            <input type="radio" id="keliling" name="pilih" value="keliling">
+            <label for="keliling">Keliling</label><br>
+            <input type="radio" id="luas" name="pilih" value="luas">
+            <label for="luas">Luas</label><br>
+            <input type="radio" id="semua" name="pilih" value="semua">
+            <label for="semua">Luas dan Keliling</label>
+            </td>
+    </tr>
       <td colspan="3" align="center">
         <input type="submit" value="Hitung Luas dan Keliling">
       </td>
